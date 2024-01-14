@@ -1,0 +1,31 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border:2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+    position: absolute;
+    /* transform:rotateX(115deg);3d objects */
+    /* transform:rotate(45deg); */
+    top:100px;
+    left:100px;
+    /* transform:scale(0.5); */
+    /* transform:scale(2,1); */
+    /* transform:scaleX(2); */
+    transition:all 2s ease-in;
+
+}
+div:hover{
+    background-color: pink;
+    color: green;
+    font-size: 20px;
+    transform:scaleX(2);
+    /* transform: translate(100px,100px); */
+    transform:skew(30deg);
+}
+div:active{
+    background-color:darksalmon;
+}
