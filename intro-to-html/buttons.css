@@ -147,25 +147,3 @@
         background-color:rgb(255,164,28);
     }
 </style>
-<button class="Subscribe button">SUBSCRIBE</button>
-<button class="Join button" >JOIN</button>
-<button class="tweet button">Tweet</button>
-<button class="Uber button">Request now</button>
-<button class="amazon button">Add to Cart</button>
-<button class="GitHub button">Sign up</button>
-<div>
-<button class="getstarted-bootstrap button">Get started</button>
-<button class="download-bootstrap button">Download</button>
-</div>
-<div>
-    <button class="apply-button button">Apply on company website</button>
-    <button class="save-button button">Save</button>
-</div>
-<div class="amazon-cart">
-    <a href="https://amazon.com/">Back to Amazon</a>
-    <h1>Nike Black Running Shoes</h1>
-    <p class="stock">$39 - in stock</p>
-    <p>Free delivery tommorow</p>
-    <button class="cart button">Add to Cart</button>
-    <button class="Buy-now button">Buy now</button>
-</div>
