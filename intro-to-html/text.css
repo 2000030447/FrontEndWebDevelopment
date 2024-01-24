@@ -70,9 +70,14 @@
 .span-example:hover{
   text-decoration: underline;
 }
+
+
+
+
+
 .tahoma{
   font-family: tahoma;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 .span-year{
   display: block;
@@ -85,7 +90,92 @@
 .span-deals{
   display: block;
   font-style: italic;
-  margin-top: 4px;
   color:red;
   font-weight:none;
+}
+
+
+
+.search-bar{
+  margin-top: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  padding: 12px 15px 12px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+
+
+.google-bar{
+  width:300px;
+  border-radius: 30px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  margin-top:20px;
+  margin-left: 20px;
+  border: none;
+  font-size: 16px;
+  padding:12px 15px 12px 15px;
+  width: 500px;
+}
+
+
+
+
+.linkedin{
+  margin-top:50px;
+  line-height: 40px;
+  font-size: 15px;
+}
+.type{
+  width:335px;
+  height:25px;
+  border-radius: 5px;
+}
+.agree{
+  width: 325px;
+  border-radius: 30px;
+  height:45px;
+  color: white;
+  background-color: rgb(63, 137, 190);
+  font-size: 16px;
+  border:none;
+}
+
+
+.twitter-textbox{
+  display: flex;
+  margin-top: 50px;
+  width:500px;
+  height:60px;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.profile-picture{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.para{
+  width:80%;
+  padding: 15px;
+  color:#606060;
+  font-size: 18px;
+}
+.tweet{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  width:90px;
+  height:35px;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
 }
